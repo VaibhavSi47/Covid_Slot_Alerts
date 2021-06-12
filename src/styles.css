@@ -1,0 +1,127 @@
+div.all{
+  background: url("./Components/bg1.png")no-repeat center fixed;
+  background-size: cover;
+}
+div.full {
+  margin: 50px 310px 50px 380px;
+  background-color: rgb(243, 240, 240);
+  max-width: 620px;
+  padding: 10px 25px 10px 5px;
+  text-align: left;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li {
+  float: left;
+  width: 33.012%;
+  float: left; 
+}
+
+li a {
+  display: block;
+  color: blue;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  color: black;
+    border-bottom: 2px solid rgb(230, 157, 157);
+}
+  
+.active {
+    background-color: white;
+    color: black;
+    border-bottom: 2px solid rgb(241, 191, 191);
+}
+***********************to be done*********************
+input[type=text] {
+  width: 100%;
+  font-size: 100%;
+  padding: 111111.5% 2000% 1.5% 2%;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  border-radius: 8px;
+  background-color: white;
+}
+input[type=number] {
+  width: 100%;
+  font-size: 100%;
+  padding: 1.5% 2% 1.5% 2%;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  border-radius: 8px;
+  background-color: white;
+}
+input[type=submit] {
+  background-color: #ec8632;
+  margin-left: 30%;
+  margin-top: 5%;
+  max-width: 100%;
+  font-size: 150%;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  float: middle;
+}
+
+input[type=submit]:hover {
+  color: black;
+  background-color: rgb(235, 213, 213);
+}
+label {
+  font-size: 120%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+  font-size: 120%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+span.myclass {
+  float: left;
+  width: 33.012%;
+  float: left; 
+}
+
+form.fm {
+  margin-left: 1.5%;
+  margin-top: 1%;
+  padding: 1% 2.5% 1% 1%;
+}
+form.fn {
+  margin-left: 1.5%;
+  margin-top: 1%;
+  padding: 1% 2.5% 1% 1%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+   input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.styles {
+  width: 50%;
+  float: left;
+}
